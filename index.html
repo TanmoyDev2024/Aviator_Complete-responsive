@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AVIATOR REALTY</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader"><i class='bx bxs-balloon'></i></div>
+      </div>
+      <style>
+        /* For best practice, move CSS below to an external CSS file. */
+        @keyframes rotation {
+          0% {
+            transform: translateY(0); }
+            /* 50%{
+                transform: translateY(50%);
+            } */
+          100% {
+            transform: translateY(-1000px); } }
+        #loader-wrapper {
+          background-color: rgba( 0, 0, 0, 0.4);
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 999;
+          width: 100%;
+          height: 100%;
+          text-align: center; }
+        .loader {
+          width: 40px;
+          height: 40px;
+          /* border: 5px solid #000000; */
+          border-bottom-color: transparent;
+          /* border-radius: 50%; */
+          margin-top:calc(50vh - 20px);
+          display: inline-block;
+          box-sizing: border-box;
+          -webkit-animation: rotation 6s linear infinite;
+          animation: rotation 6s linear infinite; 
+        }
+
+        .loader i{
+            color: orangered;
+            font-size: 50px;
+        }
+      </style>
+      <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script> -->
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="marquee" direction="">
+        <div class="marquee-content">     
+            🎄 <strong>Special Holiday Offer from Aviator Realty!</strong> 🎄 | Get exclusive discounts and deals on your dream property this December 25th! | 🎁 <strong>Don't miss out – limited time only!</strong> 🎁</div>
+    </div>
+
+    <!-- HEADER START-->
+    <header>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="lt-block">
+                    <div class="d-flex align-items-center ">
+                        <div class="logo-block">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.png" alt="" class="img-fluid" title="AVIATOR REALTY" />
+                            </a>
+                        </div>
+                        <nav class="primary-nav">
+                            <ul class="d-flex">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Agents</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!-- /.lt-block -->
+
+                <button class="mobile-trigger" id="mobile-trigger">
+                    <i class='bx bx-menu-alt-right'></i>
+                </button>
+
+                <div class="rt-block">
+                    <a href="#" class="btn login-btn" id="login-btn" title="Login/Register"><i class='bx bxs-user-circle'></i><span>login / register</span></a>
+                    <a href="#" class="btn btn-outline" title="Enlist your property here">submit listing</a>
+                </div><!-- /.rt-block -->
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER SECTION START -->
+    <section class="banner-section">
+        <img src="./assets/images/banner.jpg" alt="banner" class="img-fit"/>
+        <div class="hero-text">
+            <div class="container">
+                <h1>NAVIGATING YOU HOME</h1>
+                <ul>
+                    <li>Local expertise in Dallas/Fort Worth Market</li>
+                    <li>Boutique agency specializing in residential real 
+                        estate</li>
+                    <li>Dedicated to guiding you through the buying or 
+                        selling process</li>
+                </ul>
+                <a href="#" class="btn">Contact us today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR TEAM MEMBERS SECTION START -->
+    <section class="team-members-section" >
+        <div class="container">
+            <div class="d-flex flex-wrap gap-30">
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img" >
+                        <img src="./assets/images/David-Rosenstein-broker.jpg" alt="david" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>David Rosenstein</h3>
+                        <p>Broker</p>
+                    </div>
+                </div><!-- /.card -->
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img">
+                        <img src="./assets/images/Lindsey-Rosenstein-agent.jpg" alt="Lindsey" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>Lindsey Rosenstein</h3>
+                        <p>agent</p>
+                    </div>
+                </div><!-- /.card -->
+
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img">
+                        <img src="./assets/images/no-3.png" alt="david" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>Weston McElroy  </h3>
+                        <p>Agent</p>
+                    </div>
+                </div><!-- /.card -->
+
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img">
+                        <img src="./assets/images/no-4.png" alt="david" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>Brett Bergin</h3>
+                        <p>Agent</p>
+                    </div>
+                </div><!-- /.card -->
+
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img">
+                        <img src="./assets/images/no-5.png" alt="david" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>Wendy McElroy</h3>
+                        <p>Agent</p>
+                    </div>
+                </div><!-- /.card -->
+
+                <div class="card"  data-aos="fade-up-right">
+                    <div class="card-img">
+                        <img src="" alt="" class="img-fluid"/>
+                    </div>
+                    <div class="card-text">
+                        <h3>Tanmoy mondal</h3>
+                        <p>investor</p>
+                    </div>
+                </div><!-- /.card -->
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- RIVER DISTRICT SECTION START-->
+     <section class="river-district-section">
+        <div class="container">
+            <div class="d-flex align-items-center gap-30">
+                <div class="block">
+                    <h2>Neighborhood Spotlight</h2>
+                    <h3>The River District - Fort Worth</h3>
+                </div>
+
+                <div class="block">
+                    <div class="img-block">
+                        <img src="assets/images/river-section-first-image.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text-block">
+                        <p>The River District, located just west of Downtown Fort Worth is ever expanding and a wonderful place to call home. With local restaurants, boutique office space and plenty of living options, there is something for everyone in this up and coming neighborhood.</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="img-block">
+                        <img src="assets/images/river-section-2nd--image.jpg" alt="" class="img-fluid" >
+                    </div>
+                    <div class="text-block">
+                        <p>The River District, located just west of Downtown Fort Worth is ever expanding and a wonderful place to call home. With local restaurants, boutique office space and plenty of living options, there is something for everyone in this up and coming neighborhood.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+    <!-- BUYING AND SELLING SECTION START -->
+     <section class="buying-selling-section">
+        <div class="container">
+            <div class="text-block text-center">
+                <h2  data-aos="fade-up-right">Turbulence-Free Home Buying & Selling</h2>
+                <p  data-aos="fade-up-left"> Whether it’s new construction or a fixer upper, downsizing or needing more space, we have done it all. Our team is has the experience to navigate you through every step of your real estate experience. You wouldn’t let just anyone captain the airplane to your vacation destination, you’d want someone qualified, and when it comes to home selling, we’re the team for you. </p>
+                <a href="#" class="btn">CONTACT US today</a>
+            </div>
+           
+        </div>
+     </section>
+
+
+     <!-- FOOTER SECTION START -->
+     <footer class="footer-section">
+        <div class="container">
+            <div class="d-flex justify-content-between gap-30">
+
+                <div class="block">
+                    <div class="logo-block-footer">
+                        <a href="index.html">
+                            <img src="./assets/images/logo.png" alt="" class="img-fluid" title="AVIATOR REALTY" />
+                        </a>
+                    </div>
+                    <ul>
+                        <li> <a href="#">Texas Real Estate Commission Consumer Protection Notice.</a></li>
+                        <li><a href="#">Texas Real Estate Commission Information About Brokerage Services.</a></li>
+                    </ul> 
+                </div>
+
+                <div class="block">
+                    <h4>Contact Details</h4>
+                    <ul>
+                        <li><a href="tel:817-458-8080"><i class='bx bxs-phone-call' ></i> 817-458-8080</a></li>
+                        <li><a href="mailto:info@aviatorrealty.com"><i class='bx bx-envelope' ></i> info@aviatorrealty.com</a></li>
+                        <li><a href="#">Broker #: 9007963</a></li>
+                        <i class='bx bxl-facebook-square'></i>
+                        <i class='bx bxl-instagram' ></i>
+                    </ul>
+                </div>
+
+                <div class="block">
+                    <h4>Our Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Property Listing</a></li>
+                        <li><a href="#">Search Property</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+     <!-- FOO0TER BUTTOM-->
+      <section class="footer-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between ">
+                <a href="#">Home</a>
+                <p>© 2024 Aviator Realty – Fort Worth Real Estate Agency, All Rights Reserved. Back to top</p>
+            </div>
+        </div>
+      </section>
+
+
+
+     <!-- Mobile Menu -->
+     <nav class="primary-nav--mobile" id="primary-nav--mobile">
+        <button class="close-menu" id="close-menu">
+            <i class='bx bx-x' ></i>
+        </button>
+        <ul class="d-flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Agents</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!--LOGIN INPUT SECTION START-->
+    <div class="login-input" id="login-input">
+        <div class="form-header" id="form-header">
+          <button id="login">Login</button>
+          <button id="register-btn">Register</button>
+        </div>
+        <button class="close-input" id="close-input">
+            <i class='bx bx-x' ></i>
+        </button>
+        <div class="form-block">
+          <form>
+            <input class="form-control" type="text" placeholder="username">
+            <input class="form-control" type="password" placeholder="password">
+            <input type="checkbox" id="chkbx"> <label for="chkbx">Keep me Login</label>
+            <button type="submit" class="submit-btn">Login</button>
+          </form>
+        </div>
+        <div class="form-footer">
+          <a href="#">forgot password?</a>
+        </div>
+      </div>
+
+
+      <!-- REGISTER INPUT SECTION START -->
+      <div class="register-input" id="register-input">
+        <button class="close-register-input" id="close-register-input">
+            <i class='bx bx-x' ></i>
+        </button>
+        <h6>Register</h6>
+        <div class="form-block" id="form-block">
+          <form>
+            <input class="form-control" type="text" placeholder="Firstname">
+            <input class="form-control" type="text" placeholder="Lastname">
+            <input class="form-control" type="text" placeholder="Email">
+            <input class="form-control" type="password" placeholder="password">
+            <input class="form-control" type="password" placeholder="conform password">
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+        </div>
+      </div>
+
+     
+
+
+
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(window).on('load', function() {
+          $("#loader-wrapper").fadeOut(4000);
+        });
+      </script>
+
+    <script>
+        AOS.init();
+      </script>
+      
+</body>
+</html>

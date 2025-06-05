@@ -1,0 +1,386 @@
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-section {
+        height: 575px;
+    }
+
+    .team-members-section .card .card-img {
+        height: 374px;
+    }
+    .team-members-section .card-text {
+        padding: 15px;
+    }
+    .team-members-section .card-text p {
+        margin: 10px 0 0 0;
+    }
+
+    .team-members-section {
+        padding: 60px 0;
+    }
+    .river-district-section {
+        padding: 60px 0;
+    }
+    .river-district-section .d-flex.align-items-center.gap-30 {
+        flex-wrap: wrap;
+    }
+    .river-district-section .block:nth-of-type(1) {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .river-district-section .block h2 { 
+        margin: 0 0 17px 0;
+    }
+    .river-district-section .block:nth-of-type(2),
+    .river-district-section .block:nth-of-type(3){
+        width: calc(50% - 15px);
+    }
+    .buying-selling-section {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header .primary-nav{
+        display: none;
+    }
+    header .mobile-trigger{
+        display: block;
+        order: 3;
+    }
+
+    header .rt-block{
+        order: 2;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    header .rt-block .login-btn > span{
+        display: none;
+    }
+
+    header .rt-block .login-btn .bxs-user-circle{
+        display: block;
+        font-size: 40px;
+        color: var(--primary-color);
+    }
+
+    .team-members-section {
+        padding: 30px 0;
+    }
+
+    .team-members-section .card .card-img {
+        height: 272px;
+    }
+
+    .river-district-section {
+        padding: 30px 0;
+    }
+
+    .buying-selling-section {
+        padding: 30px 0;
+    }
+
+    .buying-selling-section p {
+        margin: 30px 0;
+    }
+
+
+   
+}
+
+@media only screen and (max-width: 767px){
+    header {
+        padding: 14px 0;
+    }
+    header .lt-block .logo-block {
+        max-width: 152px;
+    }
+    .banner-section {
+        height: 330px;
+    }
+    .banner-section .hero-text h1 {
+        margin: 0 0 25px 0;
+    }
+    .banner-section .hero-text ul li {
+        font-size: 16px;
+        margin: 0 0 13px 0;
+    }
+    .team-members-section .card .card-img {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    header .lt-block .logo-block {
+        max-width: 150px;
+        margin: 0;
+    }
+    header .rt-block .btn.btn-outline {
+        padding: 7px 10px !important;
+        font-size: 14px;
+        text-align: center;
+    }
+    header .mobile-trigger {
+        --_s: 35px;
+    }
+    .team-members-section .card {
+        width: calc(50% - 15px);
+    }
+    .team-members-section .card .card-img {
+        background-size: 50%;
+    }
+    .river-district-section .block:nth-of-type(2), 
+    .river-district-section .block:nth-of-type(3) {
+        width: 100%;
+    }
+
+    .river-district-section .block .img-block img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .river-district-section .block p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 28px 0;
+    }
+
+    .river-district-section .block:nth-of-type(3) {
+        flex-direction: column;
+    }
+    .login-input {
+        height: 76vh;
+    }
+
+    .register-input {
+        height: 76vh;
+
+    }
+
+    .footer-section .d-flex.justify-content-between.gap-30 {
+        flex-wrap: wrap;
+    }
+
+    .footer-section .block {
+        padding: 0;
+        margin: 0;
+        width:100%;
+    }
+
+
+    .footer-bottom .d-flex.justify-content-between {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    header .lt-block .logo-block {
+        max-width: 122px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .banner-section .hero-text ul li {
+        margin: 0 0 10px 0;
+    }
+
+    .banner-section .hero-text h1 {
+        margin: 0 0 18px 0;
+    }
+
+    a:link, a:visited, a:active {
+        font-size: 14px;
+        padding: 5px 10px !important;
+
+    }
+
+    .team-members-section .card .card-img {
+        height: 177px;
+    }
+
+    .team-members-section .card-text {
+        padding: 7px;
+    }
+
+    .team-members-section {
+        padding: 20px 0;
+    }
+
+    .river-district-section {
+        padding: 20px 0;
+    }
+
+    .river-district-section .block h2 {
+        margin: 0px 0 11px 0;
+    }
+
+    .gap-30 {
+        gap: 25px;
+    }
+
+    .buying-selling-section {
+        padding: 20px 0;
+    }
+
+    .buying-selling-section p {
+        margin: 18px 0;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    header {
+        padding: 8px 0;
+    }
+
+    header .lt-block .logo-block {
+        max-width: 108px;
+    }
+
+    a:link, a:visited, a:active {
+        padding: 5px 6px !important;
+      
+    }
+
+    .banner-section {
+        height: 300px;
+    }
+
+    .banner-section .hero-text h1 {
+        margin: 0 0 10px 0;
+    }
+
+    .banner-section .hero-text ul li {
+        margin: 0 0 7px 0;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    .marquee {
+        font-size: 12px;
+        padding: 1px 0;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    .banner-section .hero-text ul li {
+        font-size: 14px;
+        margin: 0 0 13px 0;
+    }
+    .banner-section .hero-text ul li {
+        margin: 0 0 8px 0;
+    }
+
+    .team-members-section {
+        padding: 15px 0;
+    }
+
+    .team-members-section .card .card-img {
+        height: 156px;
+    }
+
+    .river-district-section {
+        padding: 15px 0;
+    }
+
+    .river-district-section .block p {
+        margin: 15px 0;
+    }
+
+    .buying-selling-section {
+        padding: 15px 0;
+    }
+
+    .buying-selling-section p {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .banner-section {
+        height: 280px;
+    }
+
+    .river-district-section {
+        padding: 10px 0;
+    }
+
+    .team-members-section .card .card-img {
+        height: 268px;
+    }
+
+    .team-members-section .card {
+        width: calc(100% - 0px);
+    }
+
+    .gap-30 {
+        gap: 15px;
+    }
+
+    .team-members-section .card-text {
+        padding: 14px;
+    }
+
+    header .rt-block .btn.btn-outline {
+        padding: 2px 10px !important;
+    }
+
+    .river-district-section .block h2 {
+        margin: 0px 0 1px 0;
+    }
+
+    .river-district-section .block p {
+        margin: 7px 0;
+    }
+
+    .buying-selling-section {
+        padding: 10px 0;
+    }
+}
+
+
+
+
+/*
+Breakpoints
+1600px
+1440px
+1366px
+1280px
+1024px
+991px
+767px
+575px
+480px
+414px
+375px
+320px
+300px
+
+*/
